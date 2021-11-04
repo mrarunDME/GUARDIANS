@@ -1,6 +1,6 @@
 {
-      "name": "ELINA PROBOT",
-      "logo": "https://telegra.ph/file/c291d74dd7cc16d3080b7.jpg",
+      "name": "TIANA PROBOT",
+      "logo": "https://telegra.ph/file/bcd7b3dec21d1c2b2583a.png",
       "description": "Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -9,8 +9,7 @@
          "manager",
          "Emcee"
       ],   
-
-
+   "repository": "https://github.com/prince301102/tiana-2.0",
    "addons": [
       {
          "options": {
@@ -23,7 +22,7 @@
       "ALIVE_PIC": {
          "description": "You can get Telegraph Link From Here @vtelegraphbot",
          "required": true,
-         "value": "https://telegra.ph/file/c291d74dd7cc16d3080b7.jpg"
+         "value": "https://telegra.ph/file/95b045156a7b4c2fe61f2.mp4"
       },   
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
@@ -34,6 +33,11 @@
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
          "value": ""
+      },
+      "ARQ_API": {
+         "description": "Get ARQ_API from @ARQROBOT Otherwise do not Change this Api",
+         "required": true,
+         "value": "FGLSEN-MVEKGV-DVPUAA-KXWVWR-ARQ"
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
@@ -58,17 +62,17 @@
       "BOT_USERNAME": {
          "description": "Your Bot username without the @",
          "required": true,
-         "value": "Elina_musa_bot"
+         "value": "TIANA_PRINCE_BOT"
       },
       "BOT_NAME": {
          "description": "Your Bot Name",
          "required": true,
-         "value": "ELINA"
+         "value": "TIANA"
       },   
       "BOT_CHANNEL": {
          "description": "Your Bot Channel username without the @",
          "required": true,
-         "value": "all_books_are_available"
+         "value": "PRINCEBOTS"
       },   
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
@@ -80,12 +84,12 @@
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "BadshahMusa"
+         "value": "DEVILSDAD_PRINCE"
       },
       "CHAT_GROUP": {
          "description": "Your Group username without the @",
          "required": true,
-         "value": "sangeet_plus_chat_group"
+         "value": "MUSIC_AND_CHATS"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to Tiana support than consider you made an enemy.",
@@ -108,12 +112,12 @@
      "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-1001582733432"
+         "value": "-123456798"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-1001582733432"
+         "value": "-123456798"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -200,7 +204,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations. If you are a noob, better leave it linking to paul",
          "required": false,
-         "value": "https://t.me/Rahul1st"
+         "value": "https://t.me/prince_3011"
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",

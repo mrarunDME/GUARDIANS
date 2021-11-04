@@ -1,7 +1,7 @@
 {
-      "name": "Layla Robot",
+      "name": "GUARDIANS",
       "description": "Telegram group management bot.",
-      "logo": "https://telegra.ph/file/756c6b0640d636895fef1.jpg,
+      "logo": "https://telegra.ph/file/756c6b0640d636895fef1.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,7 +9,7 @@
          "manager",
          "GUARDIAN"
       ],   
-   "repository": "https://github.com/mrarunDME/GUARDIAN",
+   "repository": "https://heroku.com/deploy?template=https://github.com/https-github-com-mrarunDME/GUARDIANS",
    "addons": [
       {
          "options": {

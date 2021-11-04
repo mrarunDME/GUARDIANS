@@ -195,7 +195,7 @@
    },      
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
-         "required": true,
+         "required": false,
          "value": ""
       },
       "WALL_API": {

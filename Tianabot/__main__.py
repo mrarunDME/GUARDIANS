@@ -91,7 +91,7 @@ Click /help or use button below to find out more about how to use me to my full 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 🔱🔥🔥𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔥🔥🔱  𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/{GUARDIAN_GOD_BOT}?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 🔱🔥🔥𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔥🔥🔱  𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱𝐈𝐍𝐅𝐎", callback_data="masha_"),

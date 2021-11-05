@@ -85,13 +85,13 @@ PM_START_TEXT = f"""Hello, My Name is {BOT_NAME}
 Hey , I am a Group Manager,
 Made specially for Managing Groups.
 
-This Probot was Created by [ℙℝ𝕀ℕℂ𝔼](https://t.me/devilsdad_prince)
+This Probot was Created by [MR WHITE](https://t.me/HAHAHAHAHAHAHAHAHAH_ENNA_SOLLU)
 Click /help or use button below to find out more about how to use me to my full potential."""
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 KHILADI 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃 🔱🔥🔥𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔥🔥🔱  𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/{GUARDIAN_GOD_BOT}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="📱𝐈𝐍𝐅𝐎", callback_data="masha_"),

@@ -1,4 +1,4 @@
-# TIANA PRO-BOT
+# GUARDIAN LEGEND BOT
 ▪️ THIS IS PRO-GROUP MANAGER BOT.
 
 ![Deploy](https://telegra.ph/file/756c6b0640d636895fef1.jpg)

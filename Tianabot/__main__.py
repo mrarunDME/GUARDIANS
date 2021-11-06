@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-𝐇𝐞𝐲 𝐈'𝐦 [🔱⚒𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉⚒🔱](https://telegra.ph/file/0ff85b5b9aae856c99d47.jpg)
+𝐇𝐞𝐲 𝐈'𝐦 [🔱🛡𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🛡🔱](https://telegra.ph/file/0ff85b5b9aae856c99d47.jpg)
 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬!  𝐇𝐢𝐭 /help
 🧨 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 🧨
 
@@ -90,24 +90,25 @@ PM_START_TEXT = f"""
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃 🔱🔥🔥𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔥🔥🔱  𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+            text="➕️ 𝐀𝐃𝐃🔱𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔱𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="📱𝐈𝐍𝐅𝐎", callback_data="masha_"),
-        InlineKeyboardButton(text="⚜️𝐇𝐄𝐋𝐏", callback_data="help_back"),
+        InlineKeyboardButton(text="🌀𝐀𝐁𝐎𝐔𝐓🎗", callback_data="masha_"),
+        InlineKeyboardButton(text="⚜️𝐇𝐄𝐋𝐏⚜️", callback_data="help_back"),
     ],
    [
         InlineKeyboardButton(
-            text="🎵 𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏 🎧", url=f"http://t.me/{CHAT_GROUP}")
+            text="📍𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏🎻", url=f"http://t.me/{CHAT_GROUP}")
    ],
    [
         InlineKeyboardButton(
-            text="✨ 𝐎𝐖𝐍𝐄𝐑 ✨", url=f"http://t.me/{OWNER_USERNAME}"),
+            text="✨𝐎𝐖𝐍𝐄𝐑💫", url=f"http://t.me/{OWNER_USERNAME}"),
         InlineKeyboardButton(
-            text="⚜️ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚜️", url=f"https://t.me/{BOT_CHANNEL}"),
+            text="❄️𝐂𝐇𝐀𝐍𝐍𝐄𝐋🍒", url=f"https://t.me/{BOT_CHANNEL}"),
     ],
     [  
-        InlineKeyboardButton(text="👥 𝐒𝐔𝐏𝐏𝐎𝐑𝐓 𝐆𝐑𝐎𝐔𝐏 👥", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🎈𝐒𝐔𝐏𝐏𝐎𝐑𝐓🎈", url=f"https://t.me/{SUPPORT_CHAT}"),
+        InlineKeyboardButton(text="🧨𝐋𝐎𝐆𝐒💣", url=f"https://t.me/{BOT_CHANNEL}"),
     ], 
     
 ]
@@ -115,23 +116,9 @@ buttons = [
 TIANA_IMG = f"{ALIVE_PIC}"
 
 HELP_STRINGS = f"""
-Hey There! My Name is {BOT_NAME}
-
-I'm a Heroine For Fun and help admins to manage their groups! Have a look at the following for an idea of some of the things I can help you with.
-
-• Main commands available:
- • /help: PM's you this message.
- • /help <module name>: PM's you info about that module.
- • /donate: information on how to donate!
- • /settings:
-   • in PM: will send you your settings for all supported modules.
-   • in a group: will redirect you to pm, with all that chat's settings.
-
-All commands can either be used with / or !.
-
-And the following:
-"""
-
+`Hi.. I'M` 🔱𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔱
+`𝐂𝐥𝐢𝐤𝐞 𝐁𝐞𝐥𝐨𝐰 𝐓𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧 𝐀𝐧𝐝 𝐆𝐞𝐭 𝐃𝐨𝐜𝐮𝐦𝐚𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐎𝐟 𝐌𝐨𝐝𝐮𝐥𝐞𝐬..`
+Powered by :- [GUARDIAN](t.me/{SUPPORT_CHAT})"""
 
 DONATE_STRING ="""No need.. I'm rich"""
 

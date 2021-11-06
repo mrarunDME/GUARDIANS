@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-𝐇𝐞𝐲 𝐈'𝐦 [🔱🛡𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🛡🔱](https://telegra.ph/file/0cb7b55d6b671b1d96406.jpg)
+𝐇𝐞𝐲 𝐈'𝐦 [📯𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉📯](https://telegra.ph/file/0cb7b55d6b671b1d96406.jpg)
 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬!  𝐇𝐢𝐭 /help
 🧨 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 🧨
 
@@ -90,7 +90,7 @@ PM_START_TEXT = f"""
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ 𝐀𝐃𝐃🔱𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔱𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ➕️", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+            text="🪄𝐀𝐃𝐃🔱𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔱𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 🪄", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="🌀𝐀𝐁𝐎𝐔𝐓🎗", callback_data="masha_"),
@@ -98,7 +98,8 @@ buttons = [
     ],
    [
         InlineKeyboardButton(
-            text="📍𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏🎻", url=f"http://t.me/{CHAT_GROUP}")
+            text="📍𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏🎻", url=f"http://t.me/{CHAT_GROUP}"),
+        InlineKeyboardButton(text="🧨𝐒𝐔𝐏𝐏𝐎𝐑𝐓💣", url=f"https://t.me/{SUPPORT_CHAT}"),
    ],
    [
         InlineKeyboardButton(
@@ -106,11 +107,6 @@ buttons = [
         InlineKeyboardButton(
             text="❄️𝐂𝐇𝐀𝐍𝐍𝐄𝐋🍒", url=f"https://t.me/{BOT_CHANNEL}"),
     ],
-    [  
-        InlineKeyboardButton(text="🎈𝐒𝐔𝐏𝐏𝐎𝐑𝐓🎈", url=f"https://t.me/{SUPPORT_CHAT}"),
-        InlineKeyboardButton(text="🧨𝐋𝐎𝐆𝐒💣", url=f"https://t.me/{BOT_CHANNEL}"),
-    ], 
-    
 ]
 
 TIANA_IMG = f"{ALIVE_PIC}"

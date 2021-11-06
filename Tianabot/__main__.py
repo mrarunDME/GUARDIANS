@@ -80,13 +80,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 
-PM_START_TEXT = f"""Hello, My Name is {BOT_NAME}
+PM_START_TEXT = f"""
+𝐇𝐞𝐲 𝐈'𝐦 [🔱⚒𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉⚒🔱](https://telegra.ph/file/0ff85b5b9aae856c99d47.jpg)
+𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬!  𝐇𝐢𝐭 /help
+🧨 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 🧨
 
-Hey , I am a Group Manager,
-Made specially for Managing Groups.
-
-This Probot was Created by [MR WHITE](https://t.me/HAHAHAHAHAHAHAHAHAH_ENNA_SOLLU)
-Click /help or use button below to find out more about how to use me to my full potential."""
+"""
 
 buttons = [
     [

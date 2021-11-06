@@ -90,15 +90,15 @@ PM_START_TEXT = f"""
 buttons = [
     [
         InlineKeyboardButton(
-            text="🪄𝐀𝐃𝐃🔱𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔱𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 🪄", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
+            text="🪄𝐀𝐃𝐃 𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 🪄", url=f"t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
-        InlineKeyboardButton(text="🌀𝐀𝐁𝐎𝐔𝐓🎗", callback_data="masha_"),
+        InlineKeyboardButton(text="🎈𝐀𝐁𝐎𝐔𝐓🧬", callback_data="masha_"),
         InlineKeyboardButton(text="⚜️𝐇𝐄𝐋𝐏⚜️", callback_data="help_back"),
     ],
    [
         InlineKeyboardButton(
-            text="📍𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏🎻", url=f"http://t.me/{CHAT_GROUP}"),
+            text="🎻𝐂𝐇𝐀𝐓𝐓𝐈𝐍𝐆 𝐆𝐑𝐎𝐔𝐏🎻", url=f"http://t.me/{CHAT_GROUP}"),
         InlineKeyboardButton(text="🧨𝐒𝐔𝐏𝐏𝐎𝐑𝐓💣", url=f"https://t.me/{SUPPORT_CHAT}"),
    ],
    [

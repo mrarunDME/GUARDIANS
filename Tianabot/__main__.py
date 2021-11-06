@@ -81,7 +81,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = f"""
-𝐇𝐞𝐲 𝐈'𝐦 [🔱🛡𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🛡🔱](https://telegra.ph/file/0ff85b5b9aae856c99d47.jpg)
+𝐇𝐞𝐲 𝐈'𝐦 [🔱🛡𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🛡🔱](https://telegra.ph/file/0cb7b55d6b671b1d96406.jpg)
 𝐈 𝐂𝐚𝐧 𝐄𝐚𝐬𝐢𝐥𝐲 𝐌𝐚𝐧𝐚𝐠𝐢𝐧𝐠 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬!  𝐇𝐢𝐭 /help
 🧨 𝐅𝐞𝐞𝐥 𝐅𝐫𝐞𝐞 𝐓𝐨 𝐀𝐝𝐝 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩𝐬 🧨
 
@@ -116,9 +116,9 @@ buttons = [
 TIANA_IMG = f"{ALIVE_PIC}"
 
 HELP_STRINGS = f"""
-`Hi.. I'M` 🔱𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔱
+`Hi.. I'M` [🔱𝙂𝙐𝘼𝙍𝘿𝙄𝘼𝙉🔱](https://telegra.ph/file/0ff85b5b9aae856c99d47.jpg)
 `𝐂𝐥𝐢𝐤𝐞 𝐁𝐞𝐥𝐨𝐰 𝐓𝐡𝐞 𝐁𝐮𝐭𝐭𝐨𝐧 𝐀𝐧𝐝 𝐆𝐞𝐭 𝐃𝐨𝐜𝐮𝐦𝐚𝐧𝐭𝐚𝐭𝐢𝐨𝐧 𝐎𝐟 𝐌𝐨𝐝𝐮𝐥𝐞𝐬..`
-Powered by :- [GUARDIAN](t.me/{SUPPORT_CHAT})"""
+"""
 
 DONATE_STRING ="""No need.. I'm rich"""
 

@@ -1,8 +1,22 @@
 GDNIGHT = [
-    "`Good night keep your dreams alive`",
-    "`Night, night, to a dear friend! May you sleep well!`",
-    "`May the night fill with stars for you. May counting every one, give you contentment!`",
-    "`Wishing you comfort, happiness, and a good night’s sleep!`",
+    "`இனிமையான தென்றல் வீச
+அமைதியாக உறங்குங்கள்
+இனிய இரவு வணக்கம்`",
+    "`காதல் என்பது தள்ளி போடப்பட்ட
+தோல்வி..! தோல்வி என்பது
+தள்ளி போடப்பட்ட வெற்றி..!
+இனிய இரவு வணக்கம்
+மனிதா..!!`",
+    "`பயத்தால் வருவது
+தோல்வி..! துணிந்தால்
+வருவது வெற்றி..!
+இரவு வணக்கம் நண்பர்களே..!!`",
+    "`தோற்றவனை
+புண்படுத்தாதீர்கள்
+அவன் இல்லை என்றால்
+நீங்கள் வெற்றி
+பெற்று இருக்க முடியாது..!
+இரவு வணக்கம்..!!`",
     "`Now relax. The day is over. You did your best. And tomorrow you’ll do better. Good Night!`",
     "`Good night to a friend who is the best! Get your forty winks!`",
     "`May your pillow be soft, and your rest be long! Good night, friend!`",

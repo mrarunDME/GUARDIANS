@@ -257,9 +257,9 @@ class WelcomeButtons(BASE):
     __tablename__ = "welcome_urls"
     id = Column(Integer, primary_key=True, autoincrement=True)
     chat_id = Column(String(14), primary_key=True)
-    name = Column(UnicodeText, nullable=False)
-    url = Column(UnicodeText, nullable=False)
-    same_line = Column(Boolean, default=False)
+    name = Column(UnicodeText, nullable=True)
+    url = Column(UnicodeText, nullable=True)
+    same_line = Column(Boolean, default=True)
 
     def __init__(self, chat_id, name, url, same_line=False):
         self.chat_id = str(chat_id)

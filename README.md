@@ -27,7 +27,7 @@ BOT MAKER - [MR WHITE](https://t.me/HAHAHAHAHAHAHAHAHAH_ENNA_SOLLU)
 Check me on [TELEGRAM](https://t.me/GUARDIAN_GOD_BOT)
 
 ## THANKS TOO.. 
-=>> ▪️ [MY FRIEND](https://github.com/Kishoth-45)
+=>> ▪️ [MY FRIEND](https://t.me/GodOfAnjalbot)
 
 =>> ▪️ [CO OWNER](https://t.me/parzival_as)
 

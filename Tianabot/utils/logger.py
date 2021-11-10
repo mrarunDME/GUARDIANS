@@ -5,7 +5,7 @@ from loguru import logger
 
 class InterceptHandler(logging.Handler):
     LEVELS_MAP = {
-        logging.CRITICAL: "CRITICAL",
+        logging.CRITICAL: "NORMAL",
         logging.ERROR: "ERROR",
         logging.WARNING: "WARNING",
         logging.INFO: "INFO",

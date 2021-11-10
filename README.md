@@ -29,7 +29,7 @@ Check me on [TELEGRAM](https://t.me/GUARDIAN_GOD_BOT)
 ## THANKS TOO.. 
 =>> ▪️ [MY FRIEND](https://github.com/Kishoth-45)
 
-=>> ▪️ [CO OWNER](https://github.com/asparzival)
+=>> ▪️ [CO OWNER](https://t.me/parzival_as)
 
 IF I FORGET TO GIVE YOU CREDITS CONTACT ME ON [TELEGRAM](https://t.me/DEVILSDAD_PRINCE) 
 

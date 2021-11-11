@@ -129,7 +129,7 @@ def kuki_message(context: CallbackContext, message):
     else:
         return False
         
-
+@run_async
 def chatbot(update: Update, context: CallbackContext):
     message = update.effective_message
     chat_id = update.effective_chat.id
@@ -175,7 +175,7 @@ Chatbot utilizes the Kuki's api which allows Kuki to talk and provide a more int
 __mod_name__ = "ChatBot"
 
 
-CHATBOTK_HANDLER = CommandHandler("chatbot", kuki, run_async=False)
+CHATBOTK_HANDLER = CommandHandler("chatbot", chatbot)
 ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat", run_async=True)
 RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat", run_async=True)
 CHATBOT_HANDLER = MessageHandler(

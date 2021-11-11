@@ -48,7 +48,7 @@ from Tianabot.modules.helper_funcs.chat_status import user_admin, user_admin_no_
 from Tianabot import dispatcher, updater, SUPPORT_CHAT
 from Tianabot.modules.log_channel import gloggable
 
- 
+@run_async
 @user_admin_no_reply
 @gloggable
 def kukirm(update: Update, context: CallbackContext) -> str:
@@ -74,6 +74,7 @@ def kukirm(update: Update, context: CallbackContext) -> str:
 
     return ""
 
+@run_async
 @user_admin_no_reply
 @gloggable
 def kukiadd(update: Update, context: CallbackContext) -> str:
@@ -99,6 +100,7 @@ def kukiadd(update: Update, context: CallbackContext) -> str:
 
     return ""
 
+@run_async
 @user_admin
 @gloggable
 def kuki(update: Update, context: CallbackContext):
@@ -119,6 +121,7 @@ def kuki(update: Update, context: CallbackContext):
         parse_mode=ParseMode.HTML,
     )
 
+@run_async
 def kuki_message(context: CallbackContext, message):
     reply_message = message.reply_to_message
     if message.text.lower() == "kuki":
@@ -149,6 +152,7 @@ def chatbot(update: Update, context: CallbackContext):
         sleep(0.3)
         message.reply_text(kuki, timeout=60)
 
+@run_async
 def list_all_chats(update: Update, context: CallbackContext):
     chats = sql.get_all_kuki_chats()
     text = "<b>Cutiepii Enabled Chats</b>\n"
@@ -176,13 +180,13 @@ __mod_name__ = "ChatBot"
 
 
 CHATBOTK_HANDLER = CommandHandler("chatbot", chatbot)
-ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat", run_async=True)
-RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat", run_async=True)
+ADD_CHAT_HANDLER = CallbackQueryHandler(kukiadd, pattern=r"add_chat")
+RM_CHAT_HANDLER = CallbackQueryHandler(kukirm, pattern=r"rm_chat")
 CHATBOT_HANDLER = MessageHandler(
     Filters.text & (~Filters.regex(r"^#[^\s]+") & ~Filters.regex(r"^!")
-                    & ~Filters.regex(r"^\/")), chatbot, run_async=True)
+                    & ~Filters.regex(r"^\/")), chatbot)
 LIST_ALL_CHATS_HANDLER = CommandHandler(
-    "allchats", list_all_chats, filters=CustomFilters.dev_filter, run_async=True)
+    "allchats", list_all_chats, filters=CustomFilters.dev_filter)
 
 dispatcher.add_handler(ADD_CHAT_HANDLER)
 dispatcher.add_handler(CHATBOTK_HANDLER)

@@ -7,6 +7,8 @@ import spamwatch
 import telegram.ext as tg
 from pyrogram import Client, errors
 from pymongo import MongoClient
+from Python_ARQ import ARQ
+from aiohttp import ClientSession
 from telethon import TelegramClient
 from telethon.sessions import StringSession
 
@@ -96,6 +98,8 @@ if ENV:
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     AI_API_KEY = os.environ.get("AI_API_KEY", None)
+    ARQ_API_URL = "https://thearq.tech"
+    ARQ_API_KEY = "YIECCC-NAJARO-OLLREW-SJSRIP-ARQ"
     WALL_API = os.environ.get("WALL_API", None)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     BOT_CHANNEL = os.environ.get("BOT_CHANNEL", None)
@@ -186,6 +190,7 @@ else:
     REDIS_URL = Config.REDIS_URL
     IBM_WATSON_CRED_URL = Config.IBM_WATSON_CRED_URL
     IBM_WATSON_CRED_PASSWORD = Config.IBM_WATSON_CRED_PASSWORD
+    ARQ_API = Config.ARQ_API
 
     
     try:

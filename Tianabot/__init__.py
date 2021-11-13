@@ -220,12 +220,6 @@ except:
         LOGGER.warning("Can't connect to SpamWatch!")
         
         
-pgram = Client(
-    session_name,
-    api_id=API_ID,
-    api_hash=API_HASH,
-    bot_token=TOKEN,
-)    
 
 # ARQ Client
 print("[INFO]: INITIALIZING ARQ CLIENT")
@@ -238,6 +232,24 @@ pbot = Client("mashapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 mongo_client = MongoClient(MONGO_DB_URI)
 db = mongo_client.SaitamaRobot
 dispatcher = updater.dispatcher
+print("[CUTIEPII]: PYROGRAM CLIENT STARTING")
+
+session_name = TOKEN.split(":")[0]
+pgram = Client(
+
+    session_name,
+
+    api_id=API_ID,
+
+    api_hash=API_HASH,
+
+    bot_token=TOKEN,
+
+)    
+
+
+
+
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)

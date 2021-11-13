@@ -246,7 +246,9 @@ pgram = Client(
     bot_token=TOKEN,
 
 )    
+print("[INFO]: INITIALZING AIOHTTP SESSION")
 
+aiohttpsession = ClientSession()
 
 
 

@@ -8,7 +8,7 @@ from pyrogram import filters
 
 from Tianabot.helper_extra.chatbot_mongo import add_chat, get_session, remove_chat
 from Tianabot.pyrogramee.pluginhelpers import admins_only, edit_or_reply
-from Tianabot import pbot as Tiana, BOT_ID, BOT_USERNAME, arq 
+from Tianabot import pgram as Tiana, BOT_ID, BOT_USERNAME, arq 
 
 translator = google_translator()
 url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"

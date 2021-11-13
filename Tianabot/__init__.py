@@ -220,7 +220,8 @@ except:
         LOGGER.warning("Can't connect to SpamWatch!")
         
         
-
+print("[INFO]: INITIALZING AIOHTTP SESSION")
+aiohttpsession = ClientSession()
 # ARQ Client
 print("[INFO]: INITIALIZING ARQ CLIENT")
 arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
@@ -246,9 +247,8 @@ pgram = Client(
     bot_token=TOKEN,
 
 )    
-print("[INFO]: INITIALZING AIOHTTP SESSION")
 
-aiohttpsession = ClientSession()
+
 
 
 

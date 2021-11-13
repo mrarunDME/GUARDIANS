@@ -7,14 +7,9 @@ import spamwatch
 import telegram.ext as tg
 from pyrogram import Client, errors
 from pymongo import MongoClient
-from Python_ARQ import ARQ
-from aiohttp import ClientSession
 from telethon import TelegramClient
-from telethon.sessions import StringSession
 
 StartTime = time.time()
-CMD_LIST = {}
-CMD_HELP = {}
 
 # enable logging
 logging.basicConfig(
@@ -65,8 +60,7 @@ if ENV:
         TIGERS = set(int(x) for x in os.environ.get("TIGERS", "").split())
     except ValueError:
         raise Exception("Your tiger users list does not contain valid integers.")
-                
-            
+
     INFOPIC = bool(os.environ.get("INFOPIC", False))
     EVENT_LOGS = os.environ.get("EVENT_LOGS", None)
     WEBHOOK = bool(os.environ.get("WEBHOOK", False))
@@ -90,16 +84,12 @@ if ENV:
     NO_LOAD = os.environ.get("NO_LOAD", "translation").split()
     DEL_CMDS = bool(os.environ.get("DEL_CMDS", False))
     STRICT_GBAN = bool(os.environ.get("STRICT_GBAN", False))
-    STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', True))
-    STRING_SESSION  = bool(os.environ.get("STRING_SESSION ", False))
     WORKERS = int(os.environ.get("WORKERS", 8))
     BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     AI_API_KEY = os.environ.get("AI_API_KEY", None)
-    ARQ_API_URL = "https://thearq.tech"
-    ARQ_API_KEY = "YIECCC-NAJARO-OLLREW-SJSRIP-ARQ"
     WALL_API = os.environ.get("WALL_API", None)
     SUPPORT_CHAT = os.environ.get("SUPPORT_CHAT", None)
     BOT_CHANNEL = os.environ.get("BOT_CHANNEL", None)
@@ -112,7 +102,6 @@ if ENV:
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
     IBM_WATSON_CRED_PASSWORD = os.environ.get("IBM_WATSON_CRED_PASSWORD", None)
     tbot = TelegramClient(None, API_ID, API_HASH)
-    REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
     
     ALLOW_CHATS = os.environ.get("ALLOW_CHATS", True)
     CMD_HELP = {}
@@ -190,7 +179,6 @@ else:
     REDIS_URL = Config.REDIS_URL
     IBM_WATSON_CRED_URL = Config.IBM_WATSON_CRED_URL
     IBM_WATSON_CRED_PASSWORD = Config.IBM_WATSON_CRED_PASSWORD
-    ARQ_API = Config.ARQ_API
 
     
     try:
@@ -211,21 +199,7 @@ else:
     except:
         sw = None
         LOGGER.warning("Can't connect to SpamWatch!")
-        
-ubot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
-try:
-    ubot.start() 
-except:
-        ubot = None
-        LOGGER.warning("Can't connect to SpamWatch!")
-        
-        
-print("[INFO]: INITIALZING AIOHTTP SESSION")
-aiohttpsession = ClientSession()
-# ARQ Client
-print("[INFO]: INITIALIZING ARQ CLIENT")
-arq = ARQ(ARQ_API_URL, ARQ_API_KEY, aiohttpsession)
-print("[CUTIEPII]: Connecting To Yūki • Data Center • Mumbai • PostgreSQL Database")
+
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("masha", API_ID, API_HASH)
@@ -233,25 +207,6 @@ pbot = Client("mashapbot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 mongo_client = MongoClient(MONGO_DB_URI)
 db = mongo_client.SaitamaRobot
 dispatcher = updater.dispatcher
-print("[CUTIEPII]: PYROGRAM CLIENT STARTING")
-
-session_name = TOKEN.split(":")[0]
-pgram = Client(
-
-    session_name,
-
-    api_id=API_ID,
-
-    api_hash=API_HASH,
-
-    bot_token=TOKEN,
-
-)    
-
-
-
-
-
 
 DRAGONS = list(DRAGONS) + list(DEV_USERS)
 DEV_USERS = list(DEV_USERS)

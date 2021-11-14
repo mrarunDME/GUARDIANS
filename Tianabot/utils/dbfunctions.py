@@ -1,4 +1,4 @@
-from Tianabot.mongo import db
+from Tianabot import db
 from typing import Dict, List, Union
 
 

@@ -1,5 +1,5 @@
 from Tianabot import pbot
-from Tianabot.utils.dbfunctions import (update_karma, get_karma, get_karmas,
+from Tianabot.utils.dbfunc import (update_karma, get_karma, get_karmas,
                                    int_to_alpha, alpha_to_int)
 from Tianabot.utils.filter_groups import karma_positive_group, karma_negative_group
 from pyrogram import filters

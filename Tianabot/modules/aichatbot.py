@@ -11,7 +11,7 @@ url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
 
 translator = google_translator()
 
-BOT_ID = 1836395711
+BOT_ID = 2027168098
 
 def extract_emojis(s):
     return "".join(c for c in s if c in emoji.UNICODE_EMOJI)
@@ -51,7 +51,7 @@ async def lycia(client, message):
         result = result.replace('"}', "")
         result = result.replace("Aco", "tiana")
         result = result.replace("Eliza", "tiana")
-        result = result.replace("Hi~", "Hello Friend I Am @TIANA_PRINCE_BOT")
+        result = result.replace("Hi~", "Hello Friend I Am @GUARDIAN_GOD_BOT")
         result = result.replace("My dear great botmaster, Lyciabot Team.", "Made By @PRINCE_3011")
         result = result.replace("Have the control right.", "My Father Is @PRINCEBOTS")
         result = result.replace("I was created by Lyciabot Team.", "I was created by @PRINCEBOTS.")

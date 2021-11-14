@@ -35,7 +35,7 @@ async def save_couple(chat_id: int, date: str, couple: dict):
             }
         },
         upsert=True
-    )
+
     
 karmadb = db.karma
 

@@ -22,7 +22,7 @@ GDNIGHT = [
     "`Wishing you a night where you can recharge for tomorrow!`",
     "`Slumber tonight, good friend, and feel well rested, tomorrow!`",
     "`Wishing my good friend relief from a hard day’s work! Good Night!`",
-    "`Good night, friend! May you have silence for sleep!`",
+    "`இந்த இரவு இனிய இரவாகட்டும்..! இனிய கனவுகளோடு..! இரவு வணக்கம்...!`",
     "`Sleep tonight, friend and be well! Know that you have done your very best today, and that you will do your very best, tomorrow!`",
     "`Friend, you do not hesitate to get things done! Take tonight to relax and do more, tomorrow!`",
     "`POAI THUNGU PO 😁`",

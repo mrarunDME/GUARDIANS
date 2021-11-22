@@ -30,7 +30,7 @@ GDNIGHT = [
     "`அணைந்து போன கனவுகளை சரி செய்ய இந்த இதமான இரவு. இனிய இரவு வணக்கம்.`",
     "`குட்டி இரவில் செல்ல தூக்கத்தில் சின்ன கனவு காணும் செல்ல இதயத்திற்கு சின்ன மனசு சொல்லும் இரவு வணக்கம்`",
     "`இரவின் மடியினில் விழிகளை மூடி கவலைகளை மறந்து தூங்கிடுவோம். இனிய இரவு வணக்கம்.`",
-    "`May there be no activity for you tonight, friend! May the rest that you have coming to you arrive swiftly! May the activity that you do tomorrow match your pace and be all of your own making!`",
+    "`நீயும் நானும் நம் காதலை தொடர இந்த இரவு தொடராதா வேண்டி கொள்கிறேன் இந்த இரவு விடியாமல் இருக்க. இரவு வணக்கம்`",
     "`When the day is done, friend, may you know that you have done well! When you sleep tonight, friend, may you view all the you hope for, tomorrow!`",
     "`When everything is brought to a standstill, friend, I hope that your thoughts are good, as you drift to sleep! May those thoughts remain with you, during all of your days!`",
     "`Every day, you encourage me to do new things, friend! May tonight’s rest bring a new day that overflows with courage and exciting events!`",

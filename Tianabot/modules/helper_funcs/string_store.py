@@ -24,7 +24,7 @@ GDNIGHT = [
     "`Wishing my good friend relief from a hard day’s work! Good Night!`",
     "`இந்த இரவு இனிய இரவாகட்டும்..! இனிய கனவுகளோடு..! இரவு வணக்கம்...!`",
     "`Sleep tonight, friend and be well! Know that you have done your very best today, and that you will do your very best, tomorrow!`",
-    "`Friend, you do not hesitate to get things done! Take tonight to relax and do more, tomorrow!`",
+    "`நீ தூங்க சிறந்த இடம் என் இதயம் என்றால், உனக்காக என் இதயம் துடிப்பதையும் நிறுத்திவைப்பேன் நீ விழிக்கும்வரை...! இனிய இரவு வணக்கம்...!!!`",
     "`POAI THUNGU PO 😁`",
     "`Friend, I want to remind you that your strong mind has brought you peace, before. May it do that again, tonight! May you hold acknowledgment of this with you!`",
     "`Wishing you a calm, night, friend! Hoping everything winds down to your liking and that the following day meets your standards!`",

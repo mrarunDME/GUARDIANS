@@ -56,7 +56,7 @@ GDMORNING = [
     "`உங்கள் பார்வைகளை அழகு படுத்துங்கள்.. உங்கள் உள்ளத்தை தூய்மை படுத்துங்கள்.. பேச்சில் நேர்மையாக இருங்கள்.. நடக்கும் போது மென்மையாக நடந்து கொள்ளுங்கள். இந்த நாள் இனிய நாளாக அமையட்டும்..`",
     "`புன்னகையும் மௌனமும் மிக பெரிய ஆயுதங்கள் புன்னகை பல பிரச்சனைகளை தீர்க்கும் மௌனம் பல பிரச்சனைகளை வர விடமால் தடுக்கும். காலை வணக்கம்!`",
     "`தனிமை படுத்தப்பட்டோம் என வருந்தாமல்.., சுதந்திரமாக இருக்கிறோம் என எண்ணி நகருங்கள்.. இனி வாழ்வின் மிச்சம் மகிழ்ச்சி மட்டுமே. இனிய காலை வணக்கம்..!`",
-    "`Having a sweet morning, a cup of coffee, a day with your loved ones is what sets your “Good Morning” have a nice day!`",
+    "`துன்பம் நேர்ந்த காலத்தை மறந்து விடு ஆனால் அது உனக்கு கற்பித்த பாடத்தை மறந்து விடாதே. இனிய காலை வணக்கம்!`",
     "`Anything can go wrong in the day but the morning has to be beautiful, so I am making sure your morning starts beautiful. Good morning!`",
     "`பயணத்தை நிறுத்தாமல் தொடரும் போது தான்.. நம் இலக்கை நம்மால் அடைய முடியும்..! இனிமையான காலை வணக்கம்..!`",
     "`Morning is not only sunrise but A Beautiful Miracle of God that defeats the darkness and spread light. Good Morning.`",

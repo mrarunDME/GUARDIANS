@@ -32,7 +32,7 @@ GDNIGHT = [
     "`இரவின் மடியினில் விழிகளை மூடி கவலைகளை மறந்து தூங்கிடுவோம். இனிய இரவு வணக்கம்.`",
     "`நீயும் நானும் நம் காதலை தொடர இந்த இரவு தொடராதா வேண்டி கொள்கிறேன் இந்த இரவு விடியாமல் இருக்க. இரவு வணக்கம்`",
     "`நேற்று வந்த மேகங்கள் இன்று வானில் இல்லை இன்று வந்த சோகங்கள் நாளை நம்மை தொடராது. இனிய இரவு வணக்கம்.`",
-    "`When everything is brought to a standstill, friend, I hope that your thoughts are good, as you drift to sleep! May those thoughts remain with you, during all of your days!`",
+    "`நம் கவலை மூட்டைகளை இறக்கி வைக்க தருணம் தரும் இரவு! இனிய இரவு வணக்கம்.`",
     "`Every day, you encourage me to do new things, friend! May tonight’s rest bring a new day that overflows with courage and exciting events!`",
 ]
 

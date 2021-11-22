@@ -68,7 +68,7 @@ GDMORNING = [
     "`பணம் உலகத்தை கவரும்.. அழகு உள்ளத்தை கவரும்.. வார்த்தைகள் மனிதரைக் கவரும்.. இரக்கம் ஒன்றே கடவுளைக் கவரும். அனைவருக்கும் பொன்னான காலை வணக்கம்.`",
     "`நிரந்தரமான இன்பமும் இல்லை.. நிரந்தரமான துன்பமும் இல்லை..அதனால் எப்போதும் சிரித்த முகத்துடன் இருக்க பழகுங்கள்… அனைவருக்கும் மகிழ்ச்சி கலந்த காலை வணக்கம்.`",
     "`Friendship is what makes life worth living. I want to thank you for being such a special friend of mine. Good morning to you!`",
-    "`A friend like you is pretty hard to come by in life. I must consider myself lucky enough to have you. Good morning. Wish you an amazing day ahead!`",
+    "`தவறி விழுந்த விதையே முளைக்கும் போது தடுமாறி விழுந்த உன் வாழ்க்கை மட்டும் சிறக்காதா. காலை வணக்கம்!`",
     "`மதம் மனிதனை உருவாக்கவில்லை மனிதன் தான் மதத்தை உருவாக்கினான் மனிதம் என்பது மட்டுமே இங்கே நிதர்சனம் அனைவருக்கும் காலை வணக்கம்..`",
     "துயரம் என்று தளராதே.. எதிர் காலத்தை கண்டு அஞ்சாதே.. துவண்டு விழுந்தாலும் எழுந்து ஓடு.. துணிந்து செல் வெற்றி நிச்சயம்.. உறவுகள் அனைவருக்கும் காலை வணக்கம்.`",
     "`It is easy to imagine the world coming to an end. But it is difficult to imagine spending a day without my friends. Good morning.`",

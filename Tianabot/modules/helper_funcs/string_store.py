@@ -26,7 +26,7 @@ GDNIGHT = [
     "`Sleep tonight, friend and be well! Know that you have done your very best today, and that you will do your very best, tomorrow!`",
     "`நீ தூங்க சிறந்த இடம் என் இதயம் என்றால், உனக்காக என் இதயம் துடிப்பதையும் நிறுத்திவைப்பேன் நீ விழிக்கும்வரை...! இனிய இரவு வணக்கம்...!!!`",
     "`POAI THUNGU PO 😁`",
-    "`Friend, I want to remind you that your strong mind has brought you peace, before. May it do that again, tonight! May you hold acknowledgment of this with you!`",
+    "`இரவின் மயக்கத்தில் மொட்டுகளும் உறங்கும் உங்கள் மனதும் உறங்கட்டும் காலையில் புன்கையுடன் மலர என் இனிய இரவு வணக்கம்..!`",
     "`Wishing you a calm, night, friend! Hoping everything winds down to your liking and that the following day meets your standards!`",
     "`May the darkness of the night cloak you in a sleep that is sound and good! Dear friend, may this feeling carry you through the next day!`",
     "`Friend, may the quietude you experience tonight move you to have many more nights like it! May you find your peace and hold on to it!`",
